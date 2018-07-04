@@ -1,0 +1,11 @@
+---
+#we will make <map,<map,map>>)
+- linkText:
+    Basic_course_button : Basic Course
+    Repaint_button : Repaint Box 2
+    Proceed_button : Proceed
+    DragAndDrop_Proceed_button : Proceed
+    Popup_windows_button : Launch Popup Window
+    Generate_token_link : Generate Token
+   
+...

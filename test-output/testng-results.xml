@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7606" started-at="2018-07-04T12:27:09Z" finished-at="2018-07-04T12:27:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7606" started-at="2018-07-04T12:27:09Z" finished-at="2018-07-04T12:27:17Z">
+      <class name="Test.MainTest">
+        <test-method status="PASS" signature="openTatocLink()[pri:0, instance:Test.MainTest@5bcea91b]" name="openTatocLink" is-config="true" duration-ms="2131" started-at="2018-07-04T12:27:09Z" finished-at="2018-07-04T12:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTatocLink -->
+        <test-method status="PASS" signature="attempClickingBasicCourse()[pri:0, instance:Test.MainTest@5bcea91b]" name="attempClickingBasicCourse" duration-ms="116" started-at="2018-07-04T12:27:11Z" finished-at="2018-07-04T12:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attempClickingBasicCourse -->
+        <test-method status="PASS" signature="attempGridBoxPage()[pri:0, instance:Test.MainTest@5bcea91b]" name="attempGridBoxPage" duration-ms="275" started-at="2018-07-04T12:27:11Z" depends-on-methods="Test.MainTest.attempClickingBasicCourse" finished-at="2018-07-04T12:27:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attempGridBoxPage -->
+        <test-method status="PASS" signature="attemptFrameAndDungeonPage()[pri:0, instance:Test.MainTest@5bcea91b]" name="attemptFrameAndDungeonPage" duration-ms="3905" started-at="2018-07-04T12:27:12Z" depends-on-methods="Test.MainTest.attempGridBoxPage" finished-at="2018-07-04T12:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attemptFrameAndDungeonPage -->
+        <test-method status="PASS" signature="attemptDragNdrop()[pri:0, instance:Test.MainTest@5bcea91b]" name="attemptDragNdrop" duration-ms="326" started-at="2018-07-04T12:27:15Z" depends-on-methods="Test.MainTest.attemptFrameAndDungeonPage" finished-at="2018-07-04T12:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attemptDragNdrop -->
+        <test-method status="PASS" signature="attemptPopUpWindow()[pri:0, instance:Test.MainTest@5bcea91b]" name="attemptPopUpWindow" duration-ms="445" started-at="2018-07-04T12:27:16Z" depends-on-methods="Test.MainTest.attemptDragNdrop" finished-at="2018-07-04T12:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attemptPopUpWindow -->
+        <test-method status="PASS" signature="attemptCookie()[pri:0, instance:Test.MainTest@5bcea91b]" name="attemptCookie" duration-ms="349" started-at="2018-07-04T12:27:16Z" depends-on-methods="Test.MainTest.attemptPopUpWindow" finished-at="2018-07-04T12:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attemptCookie -->
+        <test-method status="PASS" signature="EndPage()[pri:0, instance:Test.MainTest@5bcea91b]" name="EndPage" duration-ms="37" started-at="2018-07-04T12:27:17Z" depends-on-methods="Test.MainTest.attemptCookie" finished-at="2018-07-04T12:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndPage -->
+      </class> <!-- Test.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
